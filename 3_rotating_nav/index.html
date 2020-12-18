@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starter</title>
+  <title>Rotating Navigation</title>
   <script src="https://kit.fontawesome.com/0053558a29.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
@@ -12,7 +12,36 @@
 </head>
 
 <body>
-  <h1>Project Starter</h1>
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div class="content">
+      <h1>Summer Growing</h1>
+      <h4>Tips and tricks for a healthy, productive garden of any size.</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia in ratione dolores cupiditate, maxime aliquid impedit dolorem nam dolor omnis atque fuga labore modi veritatis porro laborum minus, illo, maiores recusandae cumque ipsa quos. Tenetur, consequuntur mollitia labore pariatur sunt quia harum aut. Eum maxime dolorem provident natus veritatis molestiae cumque quod voluptates ab non, tempore cupiditate? Voluptatem, molestias culpa. Corrupti, laudantium iure aliquam rerum sint nam quas dolor dignissimos in error placeat quae temporibus minus optio eum soluta cupiditate! Cupiditate saepe voluptates laudantium. Ducimus consequuntur perferendis consequatur nobis exercitationem molestias fugiat commodi omnis. Asperiores quia tenetur nemo ipsa.</p>
+
+      <h3>What to Plant</h3>
+      <img src="https://images.unsplash.com/photo-1510478946814-7229b607bfe0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pots of herbs" />
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel consequatur culpa ullam. Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid. Perferendis totam placeat molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt qui vero voluptas, ut quia cum amet temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores explicabo provident. Voluptates sint, neque fuga cum illum, tempore autem maxime similique laborum odio, magnam esse. Aperiam?</p>
+    </div>
+  </div>
+
+  <!-- Nav displays in bottom left corner -->
+  <nav>
+    <ul>
+      <li><i class="fas fa-home"></i> Home</li>
+      <li><i class="fas fa-user-alt"></i> About</li>
+      <li><i class="fas fa-envelope"></i> Contact</li>
+    </ul>
+  </nav>
   <script src="script.js"></script>
 </body>
 </html>

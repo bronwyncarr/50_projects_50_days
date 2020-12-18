@@ -3,12 +3,133 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+  background-color: #333;
+  color: #333;
+  overflow-x: hidden;
   margin: 0;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+}
+
+/* rotate/pivot from top left corner */
+.container {
+  background-color: whitesmoke;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+/* about to rotate anti-clockwise */
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+/* set center of circle off the screen */
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+/* circle styling */
+.circle {
+  background-color: #cb6843;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+/* on click circle will rotate */
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+/* Button for graphic. will change with click event*/
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+/* position relative to circle */
+.circle button#open {
+  left: 60%;
+}
+
+/* position relative to circle */
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+/* bring nav into view */
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+/* list items pushed across from left */
+nav ul li {
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 30px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* 2nd list item */
+nav ul li + li  {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+/* 3rd list item */
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+.content img {
+  max-width: 100%;
+}
+
+/* spacing from top circle */
+.content {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.content p {
+  line-height: 1.5;
 }
