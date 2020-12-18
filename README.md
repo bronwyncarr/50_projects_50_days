@@ -14,3 +14,7 @@ Pagination with prev and next button. Circle border and line change to simulate 
 ## Rotating Nav
 Button with Nav icon in the top left corner that pivots the page from that position to display a nav in the bottom left corner of the page. Event handler on the nav icons. 
 ![Rotating Nav](./docs/rotating_nav.gif)
+
+## Hidden Search
+Rounded search button that shows search input field when clicked.
+![Hidden Search](./docs/hidden_search)
