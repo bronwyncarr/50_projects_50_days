@@ -22,3 +22,7 @@ Rounded search button that shows search input field when clicked.
 ## 5. Blurry Loading
 Over 3 seconds background picture comes into focus and loading% counter counts up and blurs out of focus. 
 ![Blurry Loading](./docs/blurry_loading.gif)
+
+## 5. Scroll animation
+Box move in and out from alternating side as the user scolls down and up the page.
+![Scroll Animation](./docs/scroll_animation.gif)

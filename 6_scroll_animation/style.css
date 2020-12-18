@@ -9,6 +9,52 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 4rem;
+  color: rgb(66, 66, 66);
+}
+
+.box {
+  background-color: Chartreuse;
+  color: rgb(66, 66, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  /* hide horizontal scroll bar */
+  overflow-x: hidden;
+  /* odd boxes come in from the right */
+  transform: translateX(400%) rotate(60deg);
+  transition: transform 0.3s ease-out;
+}
+
+/* even elements come in from the left */
+.box:nth-of-type(even) {
+  transform: translateX(-400%) rotate(-60deg);
+}
+
+.box:nth-child(4n+1) {
+  background-color: aquamarine;
+}
+.box:nth-child(4n+2) {
+  background-color: fuchsia;
+}
+.box:nth-child(4n+3) {
+  background-color: aqua;
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 45px;
 }
