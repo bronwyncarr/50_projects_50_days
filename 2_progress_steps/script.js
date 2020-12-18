@@ -1,17 +1,23 @@
-const progress = document.querySelector('.progress')
-const prev = document.querySelector('#prev')
-const next = document.querySelector('#next')
-const circles = document.querySelectorAll('.circle')
-let activeCircle = 1
+function variables() {
+  const values = {
+    progress: document.querySelector('.progress'),
+    prev: document.querySelector('#prev'),
+    next: document.querySelector('#next'),
+    circles: document.querySelectorAll('.circle'),
+    activeCircle: 1
+  }
+  return values
+}
 
-function click() {
+function click(variables) {
+  let { progress, prev, next, circles, activeCircle } = variables()
   // add active style to next number
   next.addEventListener('click', () => {
     if (activeCircle < circles.length) {
       activeCircle++
       circles[activeCircle-1].classList.add('active')
       progress.style.width = `${(activeCircle-1) / (circles.length -1) * 100}%`
-      update()
+      update(progress, prev, next, circles, activeCircle)
     }
   })
 
@@ -20,13 +26,13 @@ function click() {
     if (activeCircle > 1) {
       circles[activeCircle-1].classList.remove('active')
       activeCircle--
-      update()
+      update(progress, prev, next, circles, activeCircle)
     }
   })
 }
 
 //moves progress bar and button logic to disable on first/last page
-const update = () => {
+const update = (progress, prev, next, circles, activeCircle) => {
   progress.style.width = `${(activeCircle-1) / (circles.length -1) * 100}%`
   if(activeCircle === 1) {
     prev.disabled = true
@@ -38,4 +44,4 @@ const update = () => {
   }
 }
 
-click()
+click(variables)
