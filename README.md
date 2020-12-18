@@ -17,4 +17,4 @@ Button with Nav icon in the top left corner that pivots the page from that posit
 
 ## Hidden Search
 Rounded search button that shows search input field when clicked.
-![Hidden Search](./docs/hidden_search)
+![Hidden Search](./docs/hidden_search.gif)
