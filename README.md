@@ -69,4 +69,4 @@ Gets a random joke from https://icanhazdadjoke.com/api.
 
 🌟 Added Christmas theme, scale in and clear prev joke functionality while waiting for new fetch reqponse.
 
-![Christmas Joke](joke.gif)
+![Christmas Joke](./docs/joke.gif)
