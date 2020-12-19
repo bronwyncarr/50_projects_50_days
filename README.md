@@ -70,3 +70,10 @@ Gets a random joke from https://icanhazdadjoke.com/api.
 🌟 Added Christmas theme, scale in and clear prev joke functionality while waiting for new fetch reqponse.
 
 ![Christmas Joke](./docs/joke.gif)
+
+## Keycodes
+Event listener on keydown to print the key and keycode. Note: keycode is now deprecated - used here for learning purposes.
+
+🌟 Added accumulating ciphertext strings and theme.
+
+![Keycodes](./docs/keycodes.gif)
