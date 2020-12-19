@@ -1,14 +1,114 @@
+:root {
+  --accent-color: lightblue;
+  --text-color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  display:flex;
+  background-color: steelblue;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
+}
+
+/* adds transparent look on form container*/
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+/* full width button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: var(--accent-color);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* no border on focus */
+.btn:focus {
+  outline: 0;
+}
+
+/* simulates 'click' effect */
+.btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+/* border on bottom only, full width and no background color*/
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px var(--text-color) solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+/* only border is the bottom border that changes color */
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: var(--accent-color);
+}
+
+/* positioned within form-control container. sits label where input field would normally look.*/
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+/* JS adds span tag to each letter. */
+/* transition makes a bounce effect */
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* When click inside field each letter span moves up 30px and if input/valid will stay there */
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: var(--accent-color);
+  transform: translateY(-30px);
 }

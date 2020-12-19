@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starter</title>
+  <title>Wavey Form</title>
   <script src="https://kit.fontawesome.com/0053558a29.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
@@ -12,8 +12,21 @@
 </head>
 
 <body>
-  <h1>Project Starter</h1>
+  <div class="container">
+    <h1>Please Login</h1>
+    <form>
+      <div class="form-control">
+        <input type="text" required>
+        <label>Username</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+      <button class="btn">Login</button>
+      <p class="text">Don't have an account? <a href="#">Sign up!</a> </p>
+    </form>
+  </div>
   <script src="script.js"></script>
 </body>
-
 </html>
