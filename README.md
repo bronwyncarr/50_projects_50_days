@@ -36,3 +36,6 @@ Split page with widths that grow and shrink on mouseover.
 When a form input field is active, a span class is added to each letter of the label with tranlate(Y) and a delay based on the index to create a wave effect.
 ![Wave Effect](./docs/form_wave.gif)
 
+## 9. Sound board
+Buttons that play corresponding sound. First stops any other sound that might be playing. Added random sound option.
+![Sound Board](./docs/sound-board.png)

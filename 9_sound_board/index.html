@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starter</title>
+  <title>Sound Board</title>
   <script src="https://kit.fontawesome.com/0053558a29.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
@@ -12,7 +12,18 @@
 </head>
 
 <body>
-  <h1>Project Starter</h1>
+  <h1>Pick a sound...</h1>
+  <audio id="applause" src="sounds/applause.mp3"></audio>
+  <audio id="boo" src="sounds/boo.mp3"></audio>
+  <audio id="gasp" src="sounds/gasp.mp3"></audio>
+  <audio id="tada" src="sounds/tada.mp3"></audio>
+  <audio id="victory" src="sounds/victory.mp3"></audio>
+  <audio id="wrong" src="sounds/wrong.mp3"></audio>
+  <div id="buttons"></div>
+  <h2>..or get a random one!</h2>
+  <div id="random">
+    <button class="btn random-button">random</button>
+  </div>
   <script src="script.js"></script>
 </body>
 
