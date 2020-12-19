@@ -34,5 +34,5 @@ Split page with widths that grow and shrink on mouseover.
 
 ## 8. Form Wave
 When a form input field is active, a span class is added to each letter of the label with tranlate(Y) and a delay based on the index to create a wave effect.
-![Wave Effect](./docs/form_wave)
+![Wave Effect](./docs/form_wave.gif)
 
