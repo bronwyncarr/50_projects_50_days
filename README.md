@@ -71,9 +71,23 @@ Gets a random joke from https://icanhazdadjoke.com/api.
 
 ![Christmas Joke](./docs/joke.gif)
 
-## Keycodes
+## 11. Keycodes
 Event listener on keydown to print the key and keycode. Note: keycode is now deprecated - used here for learning purposes.
 
 🌟 Added accumulating ciphertext strings and theme.
 
 ![Keycodes](./docs/keycodes.gif)
+
+## 12. FAQ
+Event Listener on Chevron that expands container to include FAQ, styling and font awesome icon.
+
+![FAQ](./docs/faq.gif)
+
+## 13. Random Picker
+
+Creates tags of user input, the flashes random tags before finally selecting a random tag.
+
+🌟 Added multiple colours that are randomly selected rather than just one and the heading where each letter flashes a random colour.
+
+![Random Picker](./docs/random-picker.gif)
+
