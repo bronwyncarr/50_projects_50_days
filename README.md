@@ -97,5 +97,5 @@ Nav with increasing width when toggled and "=" icon that spins into "X"
 
 🌟 Added linear gradient and monochrome theme.
 
-![Animated Nav]('./docs/animated_nav.gif)
+![Animated Nav](./docs/animated_nav.gif)
 
