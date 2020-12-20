@@ -91,3 +91,11 @@ Creates tags of user input, the flashes random tags before finally selecting a r
 
 ![Random Picker](./docs/random-picker.gif)
 
+## Animated Nav
+
+Nav with increasing width when toggled and "=" icon that spins into "X"
+
+🌟 Added linear gradient and monochrome theme.
+
+![Animated Nav]('./docs/animated_nav.gif)
+
