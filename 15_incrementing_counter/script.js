@@ -7,14 +7,19 @@ document.querySelector(".search").addEventListener("submit", (e) => {
     .catch((err) => alert(`Error occured: ${err}`));
 });
 
+// FetchData async function gets json data from API. 
 async function fetchData(searchItem) {
   const data = await fetch(
-    `https://restcountries.eu/rest/v2/name/${searchItem}`
-  ); // returns a promise
+    `https://restcountries.eu/rest/v2/name/${searchItem}`); // returns a promise
   const [country] = await data.json();
   return country;
 }
 
+// Count numbers function takes country object. It loops over every item in facts, the desired info from country object.
+// The number is set to the target and the increment is set to a /200 fraction of it. 
+// The inner text starts at 0, while it is less then the target it adds the increment on then calls itself again.
+// Contiues to add the increment and call itself every 1ms so it appears on screen like it's counting up.
+// once it will no longer be less than the tartget, the target is set. 
 function countNumbers(country) {
   const counters = document.querySelectorAll(".counter");
   const facts = [country["population"], country["area"]];
