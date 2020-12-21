@@ -91,7 +91,7 @@ Creates tags of user input, the flashes random tags before finally selecting a r
 
 ![Random Picker](./docs/random-picker.gif)
 
-## Animated Nav
+## 14. Animated Nav
 
 Nav with increasing width when toggled and "=" icon that spins into "X"
 
@@ -99,10 +99,18 @@ Nav with increasing width when toggled and "=" icon that spins into "X"
 
 ![Animated Nav](./docs/animated_nav.gif)
 
-## Increment Counter
+## 15. Increment Counter
 
 Increment counter that visually counts up at set interval to target number.
 
 🌟🌟 Instead of hard coding numbers, get data from [RestCountries API](https://restcountries.eu/). Add input field to search for country to display data from.
 
 ![Incrementing Counter](./docs/incrementing_counter.gif)
+
+## 16. Drink Water
+
+8 small cups with click event listeners. When clicked the class will toggle to full (as will any less than it) or empty. Big cup updates with a percentage of how many small cups are full to show total.
+
+![Drink Water](./docs/drink_water.gif)
+
+## 17. 
