@@ -9,7 +9,7 @@ Every project I'll be trying to extend my knowledge by adding or modifying somet
 ## 1. Expanding Cards
 Simple event listener to expand an image by adding or removing the class of the div with a flex property.
 
-🌟 Added National Park theme with title, pictures, background color and text.
+🌟🌟 Added National Park theme with title, pictures, background color and text.
 
 ![National Parks](./docs/expanding_cards.gif)
 
@@ -21,35 +21,35 @@ Pagination with prev and next button. Circle border and line change to simulate 
 ## 3. Rotating Nav
 Button with Nav icon in the top left corner that pivots the page from that position to display a nav in the bottom left corner of the page. Event handler on the nav icons.
 
-🌟 Added content and different colour circle.
+🌟🌟 Added content and different colour circle.
 
 ![Rotating Nav](./docs/rotating_nav.gif)
 
 ## 4. Hidden Search
 Rounded search button that shows search input field when clicked.
 
-🌟 Added rounded borders and join between input and button.
+🌟🌟 Added rounded borders and join between input and button.
 
 ![Hidden Search](./docs/hidden_search.gif)
 
 ## 5. Blurry Loading
-Over 3 seconds background picture comes into focus and loading% counter counts up and blurs out of focus. 
+Over 3 seconds background picture comes into focus and loading% counter counts up and blurs out of focus.
 
-🌟 Added title, different blur amount and background pic.
+🌟🌟 Added title, different blur amount and background pic.
 
 ![Blurry Loading](./docs/blurry_loading.gif)
 
 ## 6. Scroll Animation
 Box move in and out from alternating side as the user scolls down and up the page.
 
-🌟 Added rotating/flicking motion and alternating colours.
+🌟🌟 Added rotating/flicking motion and alternating colours.
 
 ![Scroll Animation](./docs/scroll_animation.gif)
 
 ## 7. Split Landing page
 Split page with widths that grow and shrink on mouseover. ::before used to create partially transparent overlay.
 
-🌟 Added different overlay and pictures.
+🌟🌟 Added different overlay and pictures.
 
 ![Split Landing Page](./docs/split_landing.gif)
 
@@ -60,21 +60,21 @@ When a form input field is active, a span class is added to each letter of the l
 ## 9. Sound board
 Buttons that play corresponding sound. First stops any other sound that might be playing.
 
-🌟 Added random sound button that selects a random sound from the above options.
+🌟🌟 Added random sound button that selects a random sound from the above options.
 
 ![Sound Board](./docs/sound_board.png)
 
 ## 10. Dad Joke API
 Gets a random joke from https://icanhazdadjoke.com/api.
 
-🌟 Added Christmas theme, scale in and clear prev joke functionality while waiting for new fetch reqponse.
+🌟🌟 Added Christmas theme, scale in and clear prev joke functionality while waiting for new fetch reqponse.
 
 ![Christmas Joke](./docs/joke.gif)
 
 ## 11. Keycodes
 Event listener on keydown to print the key and keycode. Note: keycode is now deprecated - used here for learning purposes.
 
-🌟 Added accumulating ciphertext strings and theme.
+🌟🌟 Added accumulating ciphertext strings and theme.
 
 ![Keycodes](./docs/keycodes.gif)
 
@@ -87,7 +87,7 @@ Event Listener on Chevron that expands container to include FAQ, styling and fon
 
 Creates tags of user input, the flashes random tags before finally selecting a random tag.
 
-🌟 Added multiple colours that are randomly selected rather than just one and the heading where each letter flashes a random colour.
+🌟🌟 Added multiple colours that are randomly selected rather than just one and the heading where each letter flashes a random colour.
 
 ![Random Picker](./docs/random-picker.gif)
 
@@ -95,7 +95,14 @@ Creates tags of user input, the flashes random tags before finally selecting a r
 
 Nav with increasing width when toggled and "=" icon that spins into "X"
 
-🌟 Added linear gradient and monochrome theme.
+🌟🌟 Added linear gradient and monochrome theme.
 
 ![Animated Nav](./docs/animated_nav.gif)
 
+## Increment Counter
+
+Increment counter that visually counts up at set interval to target number.
+
+🌟🌟 Instead of hard coding numbers, get data from [RestCountries API](https://restcountries.eu/). Add input field to search for country to display data from.
+
+![Incrementing Counter](./docs/incrementing_counter.gif)

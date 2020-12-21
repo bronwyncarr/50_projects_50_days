@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starter</title>
+  <title>Increment Counter</title>
   <script src="https://kit.fontawesome.com/0053558a29.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
@@ -12,7 +12,27 @@
 </head>
 
 <body>
-  <h1>Project Starter</h1>
+  <h1>Country Stats</h1>
+  <form class="search">
+    <input type="text" class="input" id = "input" placeholder="Search...">
+    <button class="btn">
+      <i class="fas fa-search"></i>
+    </button>
+  </form>
+
+  <section>
+    <div class="counter-container">
+      <i class="fas fa-users fa-3x"></i>
+      <div class="counter"></div>
+      <span>Population</span>
+    </div>
+    <div class="counter-container">
+      <i class="fas fa-chart-area fa-3x"></i>
+      <div class="counter"></div>
+      <span>Area (km^2)</span>
+    </div>
+
+  </section>
   <script src="script.js"></script>
 </body>
 

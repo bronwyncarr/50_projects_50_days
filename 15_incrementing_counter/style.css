@@ -11,4 +11,75 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background-color: turquoise;
+}
+section {
+  display: flex;
+  margin: 30px;
+}
+
+form {
+  margin: 30px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  margin: 30px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+.search {
+  height: 50px;
+  position: relative;
+}
+
+/* input width grows when clicked */
+.input {
+  background-color: whitesmoke;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  transition: width 0.3s ease;
+  border-radius :32px;
+  width: 400px;
+  border-radius :32px 0 0 32px;
+}
+
+.btn {
+  background-color:whitesmoke;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  height: 50px;
+  width: 50px;
+  border-radius : 0 32px 32px 0;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
 }
