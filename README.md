@@ -74,12 +74,14 @@ Gets a random joke from https://icanhazdadjoke.com/api.
 ## 11. Keycodes
 Event listener on keydown to print the key and keycode. Note: keycode is now deprecated - used here for learning purposes.
 
-🌟🌟 Added accumulating ciphertext strings and theme.
+🌟🌟 Added accumulating strings to show a typed message and the encoded version for a secret message theme.
 
 ![Keycodes](./docs/keycodes.gif)
 
 ## 12. FAQ
 Event Listener on Chevron that expands container to include FAQ, styling and font awesome icon.
+
+🌟🌟 Made this into a react project! Stored data in seperate faqData file to simulate API response.
 
 ![FAQ](./docs/faq.gif)
 
@@ -113,4 +115,6 @@ Increment counter that visually counts up at set interval to target number.
 
 ![Drink Water](./docs/drink_water.gif)
 
-## 17. 
+## 17. Movie
+
+🌟🌟 Added title and button in search bar
