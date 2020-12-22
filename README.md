@@ -4,9 +4,11 @@
 Completing the [50 Projects 50 days](https://www.udemy.com/course/50-projects-50-days) course by Brad Traversy and Florin Pop to practise basic JS and CSS.
 
 ## 🌟🌟🌟 Modifications 🌟🌟🌟 
+
 Every project I'll be trying to extend my knowledge by adding or modifying something. 
 
 ## 1. Expanding Cards
+
 Simple event listener to expand an image by adding or removing the class of the div with a flex property.
 
 🌟🌟 Added National Park theme with title, pictures, background color and text.
@@ -14,11 +16,13 @@ Simple event listener to expand an image by adding or removing the class of the 
 ![National Parks](./docs/expanding_cards.gif)
 
 ## 2. Progress steps
+
 Pagination with prev and next button. Circle border and line change to simulate indication of page selected.
 
 ![Progress Steps](./docs/progress_steps.gif)
 
 ## 3. Rotating Nav
+
 Button with Nav icon in the top left corner that pivots the page from that position to display a nav in the bottom left corner of the page. Event handler on the nav icons.
 
 🌟🌟 Added content and different colour circle.
@@ -26,6 +30,7 @@ Button with Nav icon in the top left corner that pivots the page from that posit
 ![Rotating Nav](./docs/rotating_nav.gif)
 
 ## 4. Hidden Search
+
 Rounded search button that shows search input field when clicked.
 
 🌟🌟 Added rounded borders and join between input and button.
@@ -33,6 +38,7 @@ Rounded search button that shows search input field when clicked.
 ![Hidden Search](./docs/hidden_search.gif)
 
 ## 5. Blurry Loading
+
 Over 3 seconds background picture comes into focus and loading% counter counts up and blurs out of focus.
 
 🌟🌟 Added title, different blur amount and background pic.
@@ -40,6 +46,7 @@ Over 3 seconds background picture comes into focus and loading% counter counts u
 ![Blurry Loading](./docs/blurry_loading.gif)
 
 ## 6. Scroll Animation
+
 Box move in and out from alternating side as the user scolls down and up the page.
 
 🌟🌟 Added rotating/flicking motion and alternating colours.
@@ -47,6 +54,7 @@ Box move in and out from alternating side as the user scolls down and up the pag
 ![Scroll Animation](./docs/scroll_animation.gif)
 
 ## 7. Split Landing page
+
 Split page with widths that grow and shrink on mouseover. ::before used to create partially transparent overlay.
 
 🌟🌟 Added different overlay and pictures.
@@ -54,10 +62,12 @@ Split page with widths that grow and shrink on mouseover. ::before used to creat
 ![Split Landing Page](./docs/split_landing.gif)
 
 ## 8. Form Wave
+
 When a form input field is active, a span class is added to each letter of the label with tranlate(Y) and a delay based on the index to create a wave effect.
 ![Wave Effect](./docs/form_wave.gif)
 
 ## 9. Sound board
+
 Buttons that play corresponding sound. First stops any other sound that might be playing.
 
 🌟🌟 Added random sound button that selects a random sound from the above options.
@@ -65,13 +75,15 @@ Buttons that play corresponding sound. First stops any other sound that might be
 ![Sound Board](./docs/sound_board.png)
 
 ## 10. Dad Joke API
-Gets a random joke from https://icanhazdadjoke.com/api.
+
+Gets a random joke from <https://icanhazdadjoke.com/api>.
 
 🌟🌟 Added Christmas theme, scale in and clear prev joke functionality while waiting for new fetch reqponse.
 
 ![Christmas Joke](./docs/joke.gif)
 
 ## 11. Keycodes
+
 Event listener on keydown to print the key and keycode. Note: keycode is now deprecated - used here for learning purposes.
 
 🌟🌟 Added accumulating strings to show a typed message and the encoded version for a secret message theme.
@@ -79,6 +91,7 @@ Event listener on keydown to print the key and keycode. Note: keycode is now dep
 ![Keycodes](./docs/keycodes.gif)
 
 ## 12. FAQ
+
 Event Listener on Chevron that expands container to include FAQ, styling and font awesome icon.
 
 🌟🌟 Made this into a react project! Stored data in seperate faqData file to simulate API response.
@@ -116,5 +129,7 @@ Increment counter that visually counts up at set interval to target number.
 ![Drink Water](./docs/drink_water.gif)
 
 ## 17. Movie
+
+Gets movie data from <https://themoviedb.org> API and displays title, image, colour-coded rating and overview. Search functionailty.
 
 🌟🌟 Added title and button in search bar
