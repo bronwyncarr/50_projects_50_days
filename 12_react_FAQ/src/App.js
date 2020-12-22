@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Frequently Asked Questions</h1>
-      <div class="faq-container">
+      <div className="faq-container">
         {faqData.map((item) => <Faq question={item.question} answer={item.answer} />)}
       </div>
     </div>
