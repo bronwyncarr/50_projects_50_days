@@ -134,11 +134,10 @@ Gets movie data from <https://themoviedb.org> API and displays title, image, col
 
 🌟🌟 Added title and button in search bar
 
-
 ## 18. Background Slider
 
 Image carosal with smaller image in the front and large background image with opacity overlay behind. Both change on clicking arrows.
 
-🌟🌟 Changed opacity, pics and added heading
+🌟🌟 Changed opacity, pics and added heading.
 
-![Background Image](./docs/background_image.gif)
+![Background Image](./docs/background_slider.gif)
