@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+/* centers item */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: lightskyblue;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: midnightblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* box styling */
+.empty {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border: solid 3px midnightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* movable image */
+.fill {
+  background: url('https://freesvgdesigns.com/wp-content/uploads/2018/09/00333C.jpg') center center/cover;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+/* whilst draging around */
+.hold {
+  border: solid 5px #ccc;
+}
+
+/* when hovering in vicinity of box to drop on */
+.hovered {
+  background-color: dimgrey;
+  border-color: white;
+  border-style: dashed;
+  opacity: 0.8;
+}
+
+/* small screen columns */
+@media (max-width: 850px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+.fa-paw {
+  color: dimgrey;
+  font-size: 10rem;
+  position: absolute;
+  opacity: 0.6;
+  top: 20%;
+  left: 30%;
+  z-index: -1;
+  transform: rotate(25deg);
+}
+
+.paw-two {
+  top: 40%;
+  left: 70%;
+  transform: rotate(290deg);
+}
+
+.paw-three {
+  top: 60%;
+  left: 10%;
+  transform: rotate(340deg);
+}
+
+.paw-four {
+  top: 85%;
+  left: 48%;
+  transform: rotate(80deg);
+}
+
+#desert {
+  background: url('https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center center/cover;
+}
+
+#sea{
+  background: url('https://images.unsplash.com/photo-1560364897-91578ff41817?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80') center center/cover;
+}
+
+#snow {
+  background: url('https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center center/cover;
+}
+
+#home {
+  background: url('https://images.unsplash.com/photo-1573736860558-79527a353222?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80') center center/cover;
+}
