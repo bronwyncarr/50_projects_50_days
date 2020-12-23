@@ -165,3 +165,9 @@ Using Drag and Drop API and changing classes to get drag and drop animation.
 🌟🌟 Added background pics, pawprints and kitten theme. Changed hover css.
 
 ![Drag and Drop](./docs/drag_and_drop.gif)
+
+## 22. Drawing App
+
+Using Canvas API to create a drawing pad that user can draw on, select colour and pen weight and clear the pad.
+
+![Drawing App](./docs/drawing_app.gif)

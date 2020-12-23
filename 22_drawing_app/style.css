@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:lightseagreen; 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* canvas area */
+canvas {
+  border: 2px solid darkslategray;
+  background-color: whitesmoke;
+}
+
+/* controls */
+.toolbox {
+  background-color: darkslategray;
+  border: 1px solid black;
+  display:flex;
+  width: 804px;
+  padding: 1rem;
+}
+
+/* all children of toolox, ie all the controls */
+.toolbox > * {
+  background-color: whitesmoke;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 50px;
+  width:50px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+/* gets last child of all the children of toolbox, the X */
+.toolbox > *:last-child {
+margin-left: auto;
+}
