@@ -138,6 +138,14 @@ Gets movie data from <https://themoviedb.org> API and displays title, image, col
 
 Image carosal with smaller image in the front and large background image with opacity overlay behind. Both change on clicking arrows.
 
-🌟🌟 Changed opacity, pics and added heading.
+🌟🌟 Changed opacity, pics, added heading and animal "don't shop" theme.
 
 ![Background Image](./docs/background_slider.gif)
+
+## 19. Clock
+
+Analog and digital clock using JS Date object.
+
+🌟🌟 Added GMT clock - essential in aviation! ✈
+
+![Clock](./docs/clock-hands.gif)
