@@ -154,7 +154,7 @@ Analog and digital clock using JS Date object.
 
 Creates ripple effect with increasing circle animation constrained inside a button.
 
-🌟🌟 Added outside ripple effect that creates a multiple ripples on the background in random positions.
+🌟🌟 Added second button with outside ripple effect that creates a multiple ripples on the background in random positions.
 
-![Ripple Effect](./docs/ripple_button_inside.gif)
-![Ripple Effect](./docs/ripple_button_outside.gif)
+![Ripple Effect](./docs/ripple_button.gif)
+
