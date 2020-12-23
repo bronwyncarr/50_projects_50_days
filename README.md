@@ -148,4 +148,4 @@ Analog and digital clock using JS Date object.
 
 🌟🌟 Added GMT clock - essential in aviation! ✈
 
-![Clock](./docs/clock-hands.gif)
+![Clock](./docs/clock_hands.gif)
