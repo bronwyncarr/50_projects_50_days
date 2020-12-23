@@ -149,3 +149,12 @@ Analog and digital clock using JS Date object.
 🌟🌟 Added GMT clock - essential in aviation! ✈
 
 ![Clock](./docs/clock_hands.gif)
+
+## 20. Ripple Button
+
+Creates ripple effect with increasing circle animation constrained inside a button.
+
+🌟🌟 Added outside ripple effect that creates a multiple ripples on the background in random positions.
+
+![Ripple Effect](./docs/ripple_button_inside.gif)
+![Ripple Effect](./docs/ripple_button_outside.gif)
