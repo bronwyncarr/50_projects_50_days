@@ -134,6 +134,8 @@ Gets movie data from <https://themoviedb.org> API and displays title, image, col
 
 🌟🌟 Added title and button in search bar
 
+![Christmas Movies](./docs/movies.gif)
+
 ## 18. Background Slider
 
 Image carosal with smaller image in the front and large background image with opacity overlay behind. Both change on clicking arrows.
