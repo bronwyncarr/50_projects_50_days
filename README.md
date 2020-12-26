@@ -171,3 +171,11 @@ Using Drag and Drop API and changing classes to get drag and drop animation.
 Using Canvas API to create a drawing pad that user can draw on, select colour and pen weight and clear the pad.
 
 ![Drawing App](./docs/drawing_app.gif)
+
+## 23. Kinetic Loader
+
+Triangles with rotate animation.
+
+🌟🌟 Added loading button with event listener. Triangles spin to simulate "loading" with a setTimeout hard coded period.
+
+![Kinetic Loader](./docs/kinetic_triangles.gif)
