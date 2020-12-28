@@ -181,3 +181,11 @@ Triangles with rotate animation.
 🌟🌟 Added loading button with event listener. Triangles spin to simulate "loading" with a setTimeout hard coded period.
 
 ![Kinetic Loader](./docs/kinetic_triangles.gif)
+
+## 24. Content Card
+
+Linear gradient animation on card for a 2.5s timeout before displaying content. Simulates a loading animation whilst waiting for a fetch response.
+
+🌟🌟 Refactored code into an object that is looped over using a for...in loop to make it reusable.
+
+![Content Card](./docs/content_card.gif)
