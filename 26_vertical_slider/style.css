@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;  
+}
+
+body {
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Wraps around everything */
+/* fills full screen with vw and vh */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* LHS on desktop */
+/* Absolute position in container element */
+.text-slide {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Immediate divs of text-slide (children of) */
+/* One will take up 100% of the text-slide container which is only 35% LH width of screen */
+.text-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.text-slide h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+/* RHS on desktop */
+/* Absolute position in container element */
+.image-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Immediate divs of text-slide (children of) */
+/* One will take up 100% of the text-slide container which is only 65%  RH width of screen */
+.image-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+/* slider button */
+.slider-container button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 1;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* sits lower and on the left on desktop */
+/* lower corners curved */
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-radius: 0 0 5px 5px;
+}
+
+/* sits higher and on the right on desktop */
+.slider-container .action-buttons .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-radius: 5px 5px 0 0;
+}
