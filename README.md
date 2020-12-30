@@ -189,3 +189,27 @@ Linear gradient animation on card for a 2.5s timeout before displaying content. 
 🌟🌟 Refactored code into an object that is looped over using a for...in loop to make it reusable.
 
 ![Content Card](./docs/content_card.gif)
+
+## 25. Sticky Nav
+
+Top sticky Navbar that changes color and width at a certain scroll point
+
+🌟🌟 
+
+<!-- ![Content Card](./docs/content_card.gif) -->
+
+## 26. Vertical Slider
+
+Picture and Text that slide vetically on the page when arrow buttons are clicked on.
+
+🌟🌟
+
+<!-- ![Content Card](./docs/content_card.gif) -->
+
+## 27. Toast Notification
+
+Pop up animation of notifications in the bottom right corner of screen
+
+🌟🌟 Added random type inside createNotification, refactored JS and changed background and toast styling.
+
+![Toast Notification](./docs/toast.gif)
