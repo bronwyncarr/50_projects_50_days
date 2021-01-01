@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+div {
+  position: absolute;
+  bottom: 200px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  color: whitesmoke;
+  font-size: 4rem;
+  font-weight: lighter;
+}

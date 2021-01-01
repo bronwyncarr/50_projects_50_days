@@ -221,3 +221,11 @@ Heart animation on click.
 🌟🌟 Added multiple items that have event listener, gratitude theme for the New Year and altered styling.
 
 ![Gratitude Counter](./docs/gratitude.gif)
+
+## 30. Auto Text Typing
+
+Text appears to grow by one letter as if someone was typing it.
+
+🌟🌟 Added a backwards direction and typing automatically changes direction at the each end; plus a cursor style |.
+
+![Auto typing](./docs/auto_typing.gif)
