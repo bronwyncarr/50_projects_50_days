@@ -218,6 +218,6 @@ Pop up animation of notifications in the bottom right corner of screen
 
 Heart animation on click.
 
-🌟🌟 Added multiple items that have event listener, gratitude theme and altered styling.
+🌟🌟 Added multiple items that have event listener, gratitude theme for the New Year and altered styling.
 
 ![Gratitude Counter](./docs/gratitude.gif)
