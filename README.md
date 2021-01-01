@@ -213,3 +213,11 @@ Pop up animation of notifications in the bottom right corner of screen
 🌟🌟 Added random type inside createNotification, refactored JS and changed background and toast styling.
 
 ![Toast Notification](./docs/toast.gif)
+
+## 29. Gratitude Heart
+
+Heart animation on click.
+
+🌟🌟 Added multiple items that have event listener, gratitude theme and altered styling.
+
+![Gratitude Counter](./docs/gratitude.gif)

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.loveMe {
+  height: 300px;
+  width: 420px;
+  background: url('https://images.unsplash.com/photo-1546435107-91bf5fab68cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')
+    no-repeat center center/cover;
+  margin: 20px;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.loveMe h2 {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.loveMe .fa-heart {
+  position: absolute;
+  animation: grow 1s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+}
