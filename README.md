@@ -229,3 +229,13 @@ Text appears to grow by one letter as if someone was typing it.
 🌟🌟 Added a backwards direction and typing automatically changes direction at the each end; plus a cursor style |.
 
 ![Auto typing](./docs/auto_typing.gif)
+
+## 31. Password Generator
+
+Password generator where user can select type and number of characters.
+
+## 32. Two Out of Three
+
+Three selectable checkboxes where only two can be selected at any one time.
+
+# 33. Notes App
