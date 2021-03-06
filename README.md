@@ -242,4 +242,5 @@ Three selectable checkboxes where only two can be selected at any one time.
 
 ## 34. Animated Nav
 
-Countdown 
+Countdown 3, 2, 1, GO! in rotating fall down style with replay button
+
